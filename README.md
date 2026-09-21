@@ -28,3 +28,7 @@ HTML, CSS и JavaScript.
 DOM елементи, събития, localStorage и CSS Flexbox.
 
 Проектът е разработен в процеса на обучение с помощта на AI асистент.
+
+## Онлайн демо
+
+[Отвори „Моите книги“](https://alex771025.github.io/my-books/)
