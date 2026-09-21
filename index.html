@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>My Books</title>
+  </head>
+  <body>
+    <main class="app">
+      <h1>Моите книги</h1>
+      <input
+        id="bookInput"
+        type="text"
+        placeholder="Въведи заглавие на книга"
+      />
+      <div class="actions">
+        <button id="addBtn">Добави</button>
+        <button id="markAllBtn">Всички прочетени</button>
+        <button id="markAllUnreadBtn">Всички непрочетени</button>
+      </div>
+      <ul id="list"></ul>
+      <p id="readCount"></p>
+      <p id = "unreadCount"></p>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

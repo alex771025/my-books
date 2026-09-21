@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.read {
+    text-decoration: line-through;
+}
+body {
+    background-color: #172033;
+    color: #f1f5f9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 24px;
+}
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #243247;
+    padding: 24px;
+    border-radius: 16px;
+}
+h1 {
+    text-align: center;
+}
+#bookInput {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid #94a3b8;
+    border-radius: 8px;
+}
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #93c5fd;
+    color: #172033;
+    cursor: pointer;
+    font-family: inherit;
+}
+button:hover {
+    background-color: #60a5fa;
+}
+#list {
+    list-style: none;
+    padding: 0;
+    margin: 24px 0;
+}
+#list li {
+    background-color: #334155;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.delete-btn {
+    background-color: #fca5a5;
+}
+.delete-btn:hover {
+    background-color: #f87171;
+}
+#readCount,
+#unreadCount {
+    font-weight: 700;
+    text-align: center;
+}
+#list li span {
+flex-grow: 1;    
+}
+.actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
